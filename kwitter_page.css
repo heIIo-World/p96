@@ -1,0 +1,18 @@
+#pagebody {
+    background-color:#a2e6ff;
+        text-align:center
+}
+#pageheader {
+    color:dodgerblue;
+        font-weight:900;
+    font-size:60px;}
+#pageHR {
+    background-color:#57abff;
+    height: 3px;
+    border: none;
+}
+#pageusernamelabel {
+    color:dodgerblue;
+    font-weight:600;
+    font-size:25px;
+}

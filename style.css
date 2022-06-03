@@ -1,0 +1,59 @@
+#body {
+    text-align:center;
+    background-color:#a2e6ff;
+}
+#roombody {
+    text-align:center;
+    background-color:#a2e6ff;
+}
+
+#username {
+    margin:auto;
+    size:50;
+}
+input[type="text"] {
+    width: 200px;
+}
+
+#hr {
+    background-color:#57abff;
+    height: 3px;
+    border: none;
+}
+
+#roomhr {
+    background-color:#57abff;
+    height: 3px;
+    border: none;
+}
+#slogan {
+    
+    color:dodgerblue;
+    font-weight:600;
+}
+#enterroomname {
+    
+    color:dodgerblue;
+    font-weight:600;
+}
+
+.header {
+    color:dodgerblue;
+        font-weight:900;
+    font-size:60px;
+}
+#roomheader {
+    color:dodgerblue;
+        font-weight:900;
+    font-size:60px;
+}
+#enterausername {
+    color:dodgerblue;
+    font-weight:600;
+}
+
+#usernamelabel {
+    color:dodgerblue;
+    font-weight:600;
+    font-size:25px;
+}

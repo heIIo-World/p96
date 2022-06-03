@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title id="kwitterPageTitle">- ... - kwitter rooms -</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter_page.css">
+<script src="kwitter_page.js"></script>
+</head>
+<body id="pageBody">
+<center>
+    <h1 id="pageHeader">room ...</h1>
+    <label id="pageusernamelabel">welcome ...!</label> <br>
+    <hr id="pageHR"><br><br>
+    <label id="firebaseMessages"></label>
+    <input size=10 type="text" id="pageTypeMessage" class="form-control" style="width: 400px;" placeholder="aa"><br>
+    <button class="btn btn-primary" id="sendMessage" onclick="send()">send</button>
+    <br><br><br><br><br><br><br><br>
+    <button onclick="logout()" id="pageLogout" class="btn btn-primary">logout</button>
+    </center>
+</body>
+</html>
